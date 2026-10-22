@@ -1,0 +1,8 @@
+Expected notable outcomes:
+- TXN-2002 / REQ-2: PENDING_ORDER on arrival; later processed once sequence 1 is supplied.
+- TXN-2001 / REQ-1: PROCESSED.
+- TXN-2002 / REQ-2-DUP: DUPLICATE; no second debit.
+- TXN-2003 / REQ-3: PROCESSED.
+- TXN-2004 / REQ-4: FAILED validation (negative amount).
+- TXN-2005 / REQ-5: PROCESSED on attempt 2.
+- Final balances: ACC-201 = 85 USD, ACC-203 = 500 USD.
